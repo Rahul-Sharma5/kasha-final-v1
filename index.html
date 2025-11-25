@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KaSha - Pan-India Luxury Event Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              /* Updated Theme Color based on user request */
+              'brand-gold': '#43af98',       /* Primary: Specific Teal */
+              'brand-gold-light': '#6bdcc7', /* Secondary: Lighter Teal */
+              
+              /* Dark Mode Palette: Deep Teal/Green */
+              'brand-dark': '#0f2926',       /* Background: Deep Teal Black */
+              'brand-gray': '#16423d',       /* Surface: Dark Teal */
+              
+              /* Light Mode Palette: Mint/White */
+              'brand-light': '#eafaf7',      /* Background: Very Pale Teal */
+              'brand-light-gray': '#d0f2eb', /* Surface: Light Teal */
+            },
+            fontFamily: {
+              'heading': ['Cinzel', 'serif'],
+              'body': ['Montserrat', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      @keyframes bob {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-8px);
+        }
+      }
+      .animate-bob {
+        animation: bob 3s ease-in-out infinite;
+      }
+      
+      .scroll-target {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      }
+      .scroll-target.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      @keyframes page-fade-in {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .page-transition {
+        animation: page-fade-in 0.5s ease-in-out forwards;
+      }
+      
+      /* Custom Scrollbar for a cleaner look - Teal Theme */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #16423d; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #43af98; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6bdcc7; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.1",
+    "jspdf": "https://aistudiocdn.com/jspdf@^2.5.1",
+    "html2canvas": "https://aistudiocdn.com/html2canvas@^1.4.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <!-- Light Teal Gradient Background -->
+  <body class="bg-gradient-to-br from-teal-50 via-white to-emerald-50 dark:from-teal-950 dark:via-gray-900 dark:to-emerald-900 text-brand-dark dark:text-gray-100 font-body min-h-screen transition-colors duration-300 bg-fixed">
+    <div id="root"></div>
+  <script type="module" src="/src/index.tsx"></script>
+</body>
+</html>
