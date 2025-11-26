@@ -133,7 +133,7 @@ const AboutPreview: React.FC = () => (
                 <h2 className="text-4xl font-heading text-brand-dark dark:text-white">About <span className="text-brand-gold">KaSha</span></h2>
                 <div className="w-20 h-1 bg-brand-gold my-4"></div>
                 <p className="text-gray-700 dark:text-gray-300 mb-6">
-                    KaSha is a premium pan-India event management brand offering end-to-end solutions for weddings, corporate events, and large-scale activations. We bring visions to life through meticulous planning, creative design, and flawless execution.
+                    KaSha is a premium Global-India event management brand offering end-to-end solutions for weddings, corporate events, and large-scale activations. We bring visions to life through meticulous planning, creative design, and flawless execution.
                 </p>
                 <Link to="/about" className="text-brand-gold font-semibold hover:text-brand-gold-light transition-colors">
                     Learn More &rarr;
