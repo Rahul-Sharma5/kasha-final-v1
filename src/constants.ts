@@ -36,7 +36,7 @@ export const SERVICES_DATA: Service[] = [
     title: 'Weddings',
     shortDescription: 'Crafting unforgettable unions with elegance and precision.',
     longDescription: 'From grand ceremonies to intimate gatherings, we manage every detail of your special day. We offer a comprehensive suite of services to ensure a seamless and magical experience, whether you need a full-service solution or specific expertise.',
-    imageUrl: 'https://images.unsplash.com/photo-1596207891243-14946973c65d?w=800&q=80',
+    imageUrl: 'https://github.com/kashaevent/asset-images/raw/main/Kasha/wedding-showcase/luxury-wed1.jpeg?raw=true',
     process: [
       { title: 'Design', description: 'Conceptualizing your dream theme and aesthetic.' },
       { title: 'Plan', description: 'Meticulous planning of every detail, vendor, and timeline.' },
@@ -44,9 +44,9 @@ export const SERVICES_DATA: Service[] = [
       { title: 'Execution', description: 'On-site management for a stress-free celebration.' },
     ],
     showcaseImages: [
-        'https://images.unsplash.com/photo-1511285560921-4c9A9cf33ad_?w=800&q=80',
-        'https://images.unsplash.com/photo-1616165415772-1b1a7e447b4c?w=800&q=80',
-        'https://images.unsplash.com/photo-1583939003579-56d7a3a41da2?w=800&q=80',
+        'https://github.com/kashaevent/asset-images/raw/main/Kasha/wedding-showcase/25%20Wedding%20Themes%20Inspired%20by%20Stunning%20Color%20Palettes%20-%20Insiderlyfe.jpeg?raw=true',
+        'https://github.com/kashaevent/asset-images/raw/main/Kasha/wedding-showcase/70+%20Mandap%20Decor%20Ideas%20&%20Designs%20For%20Weddings!.jpeg?raw=true',
+        'https://github.com/kashaevent/asset-images/raw/main/Kasha/wedding-showcase/Dreamy%20Nighttime%20Vidhi%20Setup%20with%20Twinkling%20Lights%20and%20Fresh%20Florals.jpeg?raw=true',
     ],
     detailedServices: {
         title: 'From grand visions to the finest details, we cover every aspect of your special day.',
@@ -199,12 +199,12 @@ export const PROCESS_STEPS = [
 ];
 
 export const CITIES_DATA = [
-    { name: 'Delhi', imageUrl: 'https://images.unsplash.com/photo-1587474260584-136574528615?w=800&q=80' },
-    { name: 'Mumbai', imageUrl: 'https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=800&q=80' },
-    { name: 'Goa', imageUrl: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80' },
-    { name: 'Udaipur', imageUrl: 'https://images.unsplash.com/photo-1615836245337-f5b9b2303f10?w=800&q=80' },
-    { name: 'Jaipur', imageUrl: 'https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&q=80' },
-    { name: 'Bangalore', imageUrl: 'https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=800&q=80' },
+    { name: 'Delhi', imageUrl: 'https://github.com/kashaevent/asset-images/raw/main/Kasha/Cities/delhi.jpeg?raw=true' },
+    { name: 'Mumbai', imageUrl: 'https://github.com/kashaevent/asset-images/raw/main/Kasha/Cities/mumbai.jpeg?raw=true' },
+    { name: 'Goa', imageUrl: 'https://github.com/kashaevent/asset-images/raw/main/Kasha/Cities/goa.jpeg?raw=true' },
+    { name: 'Udaipur', imageUrl: 'https://github.com/kashaevent/asset-images/raw/main/Kasha/Cities/udaipur.jpeg?raw=true' },
+    { name: 'Jaipur', imageUrl: 'https://github.com/kashaevent/asset-images/raw/main/Kasha/Cities/jaipur.jpeg?raw=true' },
+    { name: 'Bangalore', imageUrl: 'https://github.com/kashaevent/asset-images/raw/main/Kasha/Cities/bangalore.jpeg?raw=true' },
 ];
 
 export const WHY_CHOOSE_US_DATA: WhyChooseUsItem[] = [
@@ -214,9 +214,9 @@ export const WHY_CHOOSE_US_DATA: WhyChooseUsItem[] = [
 ];
 
 export const PARTNERS_DATA = [
-    { name: 'Marriott', logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Marriott_International_Logo.svg/512px-Marriott_International_Logo.svg.png' },
+    { name: 'Marriott', logoUrl: 'https://github.com/kashaevent/asset-images/raw/main/Kasha/partners/Marriott%20International%20Marriott%20Hotels%20&%20Resorts%20Courtyard%20By%20Marriott%20PNG.jpeg?raw=true' },
     { name: 'Hyatt', logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Hyatt_Hotels_Corporation_logo.svg/512px-Hyatt_Hotels_Corporation_logo.svg.png' },
-    { name: 'Taj Hotels', logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Taj_Hotels_logo.svg/512px-Taj_Hotels_logo.svg.png' },
+    { name: 'Taj Hotels', logoUrl: 'https://github.com/kashaevent/asset-images/raw/main/Kasha/partners/pngegg.png?raw=true' },
     { name: 'Oberoi Hotels', logoUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Oberoi_Hotels_%26_Resorts_logo.svg/512px-Oberoi_Hotels_%26_Resorts_logo.svg.png' },
 ];
 
@@ -225,50 +225,50 @@ export const FINEST_PROPERTIES_DATA = [
         id: 1,
         name: 'Umaid Bhawan Palace',
         location: 'Jodhpur',
-        imageUrl: 'https://images.unsplash.com/photo-1599643478518-17488fbbcd75?w=800&q=80',
+        imageUrl: 'https://github.com/kashaevent/asset-images/raw/main/Kasha/Hotels-Venue-Section/umaid-bhawan-palace.jpg?raw=true',
         category: 'Royal Heritage'
     },
     {
         id: 2,
         name: 'The Oberoi Udaivilas',
         location: 'Udaipur',
-        imageUrl: 'https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?w=800&q=80',
+        imageUrl: 'https://github.com/kashaevent/asset-images/raw/main/Kasha/Hotels-Venue-Section/the-oberoi-udaivilas-udaipur.jpeg?raw=true',
         category: 'Luxury Resort'
     },
     {
         id: 3,
         name: 'Taj Falaknuma Palace',
         location: 'Hyderabad',
-        imageUrl: 'https://images.unsplash.com/photo-1605218427368-35b016df2e6e?w=800&q=80',
+        imageUrl: 'https://github.com/kashaevent/asset-images/raw/main/Kasha/Hotels-Venue-Section/The-Taj-Falaknuma-Palace.jpeg?raw=true',
         category: 'Palace'
     },
     {
         id: 4,
         name: 'Rambagh Palace',
         location: 'Jaipur',
-        imageUrl: 'https://images.unsplash.com/photo-1585584003038-0c3b6c6390b6?w=800&q=80',
+        imageUrl: 'https://github.com/kashaevent/asset-images/raw/main/Kasha/Hotels-Venue-Section/Rambagh-Palace.jpeg?raw=true',
         category: 'Historic'
     },
     {
         id: 5,
         name: 'ITC Grand Bharat',
         location: 'Gurugram',
-        imageUrl: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80',
+        imageUrl: 'https://github.com/kashaevent/asset-images/blob/main/Kasha/Hotels-Venue-Section/ITCGrandBharat.jpeg?raw=true',
         category: 'Retreat'
     },
     {
         id: 6,
         name: 'The Leela Palace',
         location: 'New Delhi',
-        imageUrl: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80',
+        imageUrl: 'https://github.com/kashaevent/asset-images/blob/main/Kasha/Hotels-Venue-Section/Leela-Palace.jpeg?raw=true',
         category: 'Urban Luxury'
     }
 ];
 
 export const TEAM_DATA: TeamMember[] = [
-    { id: 1, name: "Arjun Kapoor", role: "Founder & CEO", imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80", bio: "Visionary leader with 15+ years in events.", expertise: "Strategic Planning" },
-    { id: 2, name: "Sana Mir", role: "Creative Director", imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80", bio: "Award-winning designer with a flair for luxury.", expertise: "Decor & Aesthetics" },
-    { id: 3, name: "Vikram Singh", role: "Head of Operations", imageUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80", bio: "Master of logistics ensuring flawless execution.", expertise: "Production Management" },
+    { id: 1, name: "Mujeeb", role: "Founder & CEO", imageUrl: "https://github.com/kashaevent/asset-images/raw/main/Kasha/team/Mujeeb3.jpg?raw=true", bio: "Visionary leader with 15+ years in events.", expertise: "Strategic Planning" },
+    { id: 2, name: "Rajat Tyagi", role: "Creative Director", imageUrl: "https://github.com/kashaevent/asset-images/raw/main/Kasha/team/Rajat.jpeg?raw=true", bio: "Award-winning designer with a flair for luxury.", expertise: "Decor & Aesthetics" },
+    { id: 3, name: "Mateen", role: "Head of Operations", imageUrl: "https://github.com/kashaevent/asset-images/raw/main/Kasha/team/Mateen.jpeg?raw=true", bio: "Master of logistics ensuring flawless execution.", expertise: "Production Management" },
 ];
 
 export const CAREERS_DATA: JobOpening[] = [

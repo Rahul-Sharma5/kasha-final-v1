@@ -5,6 +5,8 @@ import emailjs from '@emailjs/browser';
 import { SERVICES_DATA, PORTFOLIO_DATA, TESTIMONIALS_DATA, PROCESS_STEPS, CITIES_DATA, WHY_CHOOSE_US_DATA, PARTNERS_DATA, BLOG_DATA, FINEST_PROPERTIES_DATA } from '../constants';
 import { Service, Testimonial, BlogPost } from '../types';
 import { XIcon, CalendarIcon, SparklesIcon, QuoteIcon } from '../components/Icons';
+import { useNavigate } from "react-router-dom";
+
 
 
 const heroSlides = [
@@ -126,25 +128,51 @@ const Hero: React.FC = () => {
 };
 
 
-const AboutPreview: React.FC = () => (
-    <section className="py-20 bg-transparent">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
-            <div className="order-2 md:order-1 scroll-target p-8 bg-white/30 dark:bg-black/30 backdrop-blur-sm rounded-xl shadow-lg">
-                <h2 className="text-4xl font-heading text-brand-dark dark:text-white">About <span className="text-brand-gold">KaSha</span></h2>
-                <div className="w-20 h-1 bg-brand-gold my-4"></div>
-                <p className="text-gray-700 dark:text-gray-300 mb-6">
-                    KaSha is a premium Global-India event management brand offering end-to-end solutions for weddings, corporate events, and large-scale activations. We bring visions to life through meticulous planning, creative design, and flawless execution.
-                </p>
-                <Link to="/about" className="text-brand-gold font-semibold hover:text-brand-gold-light transition-colors">
-                    Learn More &rarr;
-                </Link>
+
+const AboutPreview: React.FC = () => {
+    const navigate = useNavigate();  // <-- FIXED HERE
+
+    return (
+        <section className="py-20 bg-transparent">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+                
+                {/* LEFT BOX */}
+                <div className="order-2 md:order-1 scroll-target p-8 bg-white/30 dark:bg-black/30 backdrop-blur-sm rounded-xl shadow-lg 
+                                h-[433px] flex flex-col">
+                    <h2 className="text-4xl font-heading text-brand-dark dark:text-white">
+                        About <span className="text-brand-gold">KaSha</span>
+                    </h2>
+                    <div className="w-20 h-1 bg-brand-gold my-4"></div>
+
+                    <p className="text-gray-700 dark:text-gray-300 mb-6">
+                        KaSha is a premium pan-India event management brand offering end-to-end solutions for weddings,
+                        corporate events, and large-scale activations. We bring visions to life through meticulous planning,
+                        creative design, and flawless execution.
+                    </p>
+
+                    {/* BUTTON — BOTTOM RIGHT */}
+                    <button
+                        onClick={() => navigate('/about')}
+                        className="mt-auto self-end px-5 py-2 bg-brand-gold text-white font-semibold rounded-lg 
+                                   hover:bg-brand-gold-light transition-all duration-300"
+                    >
+                        Learn More →
+                    </button>
+
+                </div>
+
+                {/* RIGHT IMAGE */}
+                <div className="order-1 md:order-2 scroll-target" style={{ transitionDelay: '200ms' }}>
+                    <img 
+                        src="https://github.com/kashaevent/asset-images/blob/11eb572a793abbae3fbe61a864121c0f12fb776d/Kasha/About-Section/A_luxurious_Indian_wedding_man_kasha_ai.png?raw=true"
+                        alt="KaSha Team"
+                        className="rounded-lg shadow-2xl w-[700px] h-[433px] object-cover"
+                    />
+                </div>
             </div>
-            <div className="order-1 md:order-2 scroll-target" style={{ transitionDelay: '200ms' }}>
-                <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80" alt="KaSha Team" className="rounded-lg shadow-2xl"/>
-            </div>
-        </div>
-    </section>
-);
+        </section>
+    );
+};
 
 
 const ServicesPreview: React.FC<{ services: Service[] }> = ({ services }) => (
