@@ -46,7 +46,7 @@ const ServiceDetailPage: React.FC = () => {
                             </p>
                         </div>
                         <div className="order-1 md:order-2 scroll-target" style={{ transitionDelay: '200ms' }}>
-                            <img src={service.showcaseImages[0]} alt={service.title} className="rounded-lg shadow-2xl w-full h-auto object-cover" />
+                            <img src={service.showcaseImages[0]} alt={service.title} className="rounded-lg shadow-2xl w-[700px] h-[600px] object-cover" />
                         </div>
                     </div>
                 </div>

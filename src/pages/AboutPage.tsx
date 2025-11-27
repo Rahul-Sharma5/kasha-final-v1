@@ -32,7 +32,7 @@ const AboutPage: React.FC = () => {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid md:grid-cols-2 gap-16 items-center">
                         <div className="scroll-target">
-                             <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&q=80" alt="KaSha Event" className="rounded-lg shadow-2xl"/>
+                             <img src="https://github.com/kashaevent/asset-images/raw/main/Kasha/about-kasha.png?raw=true" alt="KaSha Event" className="rounded-lg shadow-2xl"/>
                         </div>
                         <div className="scroll-target" style={{ transitionDelay: '200ms' }}>
                             <h2 className="text-3xl font-heading text-brand-dark dark:text-white">Our Brand Story</h2>
